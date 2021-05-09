@@ -1,0 +1,22 @@
+C:\Users\Marcos Vinicius\Documents\Unifaat\PCC\H GOLD Transportes Ltda\UI\bin\Debug\H GOLD Transportes Ltda.exe.config
+C:\Users\Marcos Vinicius\Documents\Unifaat\PCC\H GOLD Transportes Ltda\UI\bin\Debug\H GOLD Transportes Ltda.exe
+C:\Users\Marcos Vinicius\Documents\Unifaat\PCC\H GOLD Transportes Ltda\UI\bin\Debug\H GOLD Transportes Ltda.pdb
+C:\Users\Marcos Vinicius\Documents\Unifaat\PCC\H GOLD Transportes Ltda\UI\bin\Debug\Business.dll
+C:\Users\Marcos Vinicius\Documents\Unifaat\PCC\H GOLD Transportes Ltda\UI\bin\Debug\DataBase.dll
+C:\Users\Marcos Vinicius\Documents\Unifaat\PCC\H GOLD Transportes Ltda\UI\bin\Debug\Business.pdb
+C:\Users\Marcos Vinicius\Documents\Unifaat\PCC\H GOLD Transportes Ltda\UI\bin\Debug\DataBase.pdb
+C:\Users\Marcos Vinicius\Documents\Unifaat\PCC\H GOLD Transportes Ltda\UI\obj\Debug\UI.csprojAssemblyReference.cache
+C:\Users\Marcos Vinicius\Documents\Unifaat\PCC\H GOLD Transportes Ltda\UI\obj\Debug\H_GOLD_Transportes_Ltda.FormNotasCarregamento.resources
+C:\Users\Marcos Vinicius\Documents\Unifaat\PCC\H GOLD Transportes Ltda\UI\obj\Debug\H_GOLD_Transportes_Ltda.Properties.Resources.resources
+C:\Users\Marcos Vinicius\Documents\Unifaat\PCC\H GOLD Transportes Ltda\UI\obj\Debug\UI.csproj.GenerateResource.cache
+C:\Users\Marcos Vinicius\Documents\Unifaat\PCC\H GOLD Transportes Ltda\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+C:\Users\Marcos Vinicius\Documents\Unifaat\PCC\H GOLD Transportes Ltda\UI\obj\Debug\UI.csproj.CopyComplete
+C:\Users\Marcos Vinicius\Documents\Unifaat\PCC\H GOLD Transportes Ltda\UI\obj\Debug\H GOLD Transportes Ltda.exe
+C:\Users\Marcos Vinicius\Documents\Unifaat\PCC\H GOLD Transportes Ltda\UI\obj\Debug\H GOLD Transportes Ltda.pdb
+C:\Users\Marcos Vinicius\Documents\Unifaat\PCC\H GOLD Transportes Ltda\UI\obj\Debug\H_GOLD_Transportes_Ltda.FormCargas.resources
+C:\Users\Marcos Vinicius\Documents\Unifaat\PCC\H GOLD Transportes Ltda\UI\obj\Debug\H_GOLD_Transportes_Ltda.FormFuncionarios.resources
+C:\Users\Marcos Vinicius\Documents\Unifaat\PCC\H GOLD Transportes Ltda\UI\obj\Debug\H_GOLD_Transportes_Ltda.FormClientes.resources
+C:\Users\Marcos Vinicius\Documents\Unifaat\PCC\H GOLD Transportes Ltda\UI\obj\Debug\H_GOLD_Transportes_Ltda.FormRegistrosNotasCarregamento.resources
+C:\Users\Marcos Vinicius\Documents\Unifaat\PCC\H GOLD Transportes Ltda\UI\obj\Debug\H_GOLD_Transportes_Ltda.FormRegistrosClientes.resources
+C:\Users\Marcos Vinicius\Documents\Unifaat\PCC\H GOLD Transportes Ltda\UI\obj\Debug\H_GOLD_Transportes_Ltda.FormRegistrosFuncionarios.resources
+C:\Users\Marcos Vinicius\Documents\Unifaat\PCC\H GOLD Transportes Ltda\UI\obj\Debug\H_GOLD_Transportes_Ltda.FormRegistrosCargas.resources

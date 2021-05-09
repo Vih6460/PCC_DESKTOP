@@ -1,0 +1,6 @@
+C:\Users\Marcos Vinicius\Documents\Unifaat\PCC\H GOLD Transportes Ltda\DataBase\bin\Debug\DataBase.dll
+C:\Users\Marcos Vinicius\Documents\Unifaat\PCC\H GOLD Transportes Ltda\DataBase\bin\Debug\DataBase.pdb
+C:\Users\Marcos Vinicius\Documents\Unifaat\PCC\H GOLD Transportes Ltda\DataBase\obj\Debug\DataBase.csprojAssemblyReference.cache
+C:\Users\Marcos Vinicius\Documents\Unifaat\PCC\H GOLD Transportes Ltda\DataBase\obj\Debug\DataBase.csproj.CoreCompileInputs.cache
+C:\Users\Marcos Vinicius\Documents\Unifaat\PCC\H GOLD Transportes Ltda\DataBase\obj\Debug\DataBase.dll
+C:\Users\Marcos Vinicius\Documents\Unifaat\PCC\H GOLD Transportes Ltda\DataBase\obj\Debug\DataBase.pdb

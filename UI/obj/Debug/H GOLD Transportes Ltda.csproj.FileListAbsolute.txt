@@ -1,0 +1,10 @@
+C:\Users\Marcos Vinicius\source\repos\H GOLD Transportes Ltda\H GOLD Transportes Ltda\bin\Debug\H GOLD Transportes Ltda.exe.config
+C:\Users\Marcos Vinicius\source\repos\H GOLD Transportes Ltda\H GOLD Transportes Ltda\bin\Debug\H GOLD Transportes Ltda.exe
+C:\Users\Marcos Vinicius\source\repos\H GOLD Transportes Ltda\H GOLD Transportes Ltda\bin\Debug\H GOLD Transportes Ltda.pdb
+C:\Users\Marcos Vinicius\source\repos\H GOLD Transportes Ltda\H GOLD Transportes Ltda\obj\Debug\H GOLD Transportes Ltda.csprojAssemblyReference.cache
+C:\Users\Marcos Vinicius\source\repos\H GOLD Transportes Ltda\H GOLD Transportes Ltda\obj\Debug\H_GOLD_Transportes_Ltda.Form1.resources
+C:\Users\Marcos Vinicius\source\repos\H GOLD Transportes Ltda\H GOLD Transportes Ltda\obj\Debug\H_GOLD_Transportes_Ltda.Properties.Resources.resources
+C:\Users\Marcos Vinicius\source\repos\H GOLD Transportes Ltda\H GOLD Transportes Ltda\obj\Debug\H GOLD Transportes Ltda.csproj.GenerateResource.cache
+C:\Users\Marcos Vinicius\source\repos\H GOLD Transportes Ltda\H GOLD Transportes Ltda\obj\Debug\H GOLD Transportes Ltda.csproj.CoreCompileInputs.cache
+C:\Users\Marcos Vinicius\source\repos\H GOLD Transportes Ltda\H GOLD Transportes Ltda\obj\Debug\H GOLD Transportes Ltda.exe
+C:\Users\Marcos Vinicius\source\repos\H GOLD Transportes Ltda\H GOLD Transportes Ltda\obj\Debug\H GOLD Transportes Ltda.pdb
