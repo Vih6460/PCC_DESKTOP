@@ -29,6 +29,7 @@ namespace H_GOLD_Transportes_Ltda
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormCargas));
             this.btnPesquisarCarga = new System.Windows.Forms.Button();
             this.btnSalvarCarga = new System.Windows.Forms.Button();
             this.txtIdCarga = new System.Windows.Forms.TextBox();
@@ -343,6 +344,7 @@ namespace H_GOLD_Transportes_Ltda
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormCargas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "H GOLD Log Transportes Ltda.";
