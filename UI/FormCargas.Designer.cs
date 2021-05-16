@@ -286,7 +286,7 @@ namespace H_GOLD_Transportes_Ltda
             // 
             this.pictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox3.BackgroundImage = global::H_GOLD_Transportes_Ltda.Properties.Resources.logohgold;
+            this.pictureBox3.BackgroundImage = global::H_GOLD_Transportes_Ltda.Properties.Resources.logohgold1;
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox3.Location = new System.Drawing.Point(26, 21);
             this.pictureBox3.Name = "pictureBox3";
