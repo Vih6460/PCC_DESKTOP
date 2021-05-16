@@ -9,6 +9,11 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Business;
 
+//iTextSharp
+using System.IO;
+using iTextSharp.text;
+using iTextSharp.text.pdf; 
+
 namespace H_GOLD_Transportes_Ltda
 {
     public partial class FormNotasCarregamento : Form
@@ -32,6 +37,89 @@ namespace H_GOLD_Transportes_Ltda
             nota.Carro = txtCarroNota.Text;
             nota.Placa = txtPlacaNota.Text;
             nota.Salvar();
+
+            Document doc = new Document(PageSize.A4);
+            doc.SetMargins(40, 40, 40, 80);
+
+            string now = DateTime.Now.ToString();
+            now = now.Replace(" ", "");
+            now = now.Replace("/", "");
+            now = now.Replace(":", "");
+            string caminho = @"C:\Users\Marcos Vinicius\Documents\Unifaat\PCC\NotasCarregamento\Motorista=" + nota.NomeMotorista + "_" + now + ".pdf";
+            _ = PdfWriter.GetInstance(doc, new FileStream(caminho, FileMode.Create));
+
+            doc.Open();
+
+            string simg = "https://raw.githubusercontent.com/Vih6460/PCC-Unifaat/master/PCC/src/img/logohgold.jpg";
+            iTextSharp.text.Image img = iTextSharp.text.Image.GetInstance(simg);
+            img.ScaleAbsolute(256, 192);
+            img.Alignment = Element.ALIGN_CENTER;
+            doc.Add(img);
+
+            Paragraph titulo1 = new Paragraph();
+            titulo1.Font = new iTextSharp.text.Font(iTextSharp.text.Font.NORMAL, 30);
+            titulo1.Alignment = Element.ALIGN_CENTER;
+            titulo1.Add("\n\nH GOLD Log Transportes Ltda.\n\n");
+            doc.Add(titulo1);
+
+            Paragraph dadosHGold = new Paragraph();
+            dadosHGold.Font = new iTextSharp.text.Font(iTextSharp.text.Font.NORMAL, 15);
+            dadosHGold.Add("CNPJ: 14.238.200/0001-91\nEndereço: Rua Tuiuti, 258 - Tatuapé\nCidade: São Paulo - SP\nCEP: 03081-003\nTelefone: (11) 2093-5177\nEmail: contato@hgold.com\n\n\n");
+            doc.Add(dadosHGold);
+
+            Paragraph titulo2 = new Paragraph();
+            titulo2.Font = new iTextSharp.text.Font(iTextSharp.text.Font.NORMAL, 25);
+            titulo2.Alignment = Element.ALIGN_CENTER;
+            titulo2.Add("Nota de Carregamento\n\n\n");
+            doc.Add(titulo2);
+
+            Paragraph pdadosCarga = new Paragraph();
+            pdadosCarga.Font = new iTextSharp.text.Font(iTextSharp.text.Font.NORMAL, 20);
+            pdadosCarga.Add("Dados da Carga\n\n");
+            doc.Add(pdadosCarga);
+
+            Paragraph dadosCarga = new Paragraph();
+            dadosCarga.Font = new iTextSharp.text.Font(iTextSharp.text.Font.NORMAL, 15);
+            dadosCarga.Add("Código Romaneio: " + nota.CodRomaneio + "\nCliente Recebedor: " + nota.Recebedor + "\nCliente Fornecedor: " + nota.Fornecedor + "\n\n\n");
+            doc.Add(dadosCarga);
+
+            Paragraph pdadosMotorista = new Paragraph();
+            pdadosMotorista.Font = new iTextSharp.text.Font(iTextSharp.text.Font.NORMAL, 20);
+            pdadosMotorista.Add("Dados do Motorista\n\n");
+            doc.Add(pdadosMotorista);
+
+            Paragraph dadosMotorista = new Paragraph();
+            dadosMotorista.Font = new iTextSharp.text.Font(iTextSharp.text.Font.NORMAL, 15);
+            dadosMotorista.Add("Nome: " + nota.NomeMotorista + "\nCarro: " + nota.Carro + "\nPlaca: " + nota.Placa + "\n\n");
+            doc.Add(dadosMotorista);
+
+            doc.Close();
+
+            var open = MessageBox.Show("Deseja abrir agora a Nota de Carregamento ?", "NC EMITIDA COM SUCESSO !", MessageBoxButtons.YesNo);
+            if (open == DialogResult.Yes)
+            {
+                System.Diagnostics.Process.Start(caminho);
+                txtIdNota.Text = "";
+                txtCodigoRomaneioNota.Text = "";
+                txtRecebedorNota.Text = "";
+                txtFornecedorNota.Text = "";
+                txtNomeNota.Text = "";
+                txtCarroNota.Text = "";
+                txtPlacaNota.Text = "";
+            }
+            else
+            {
+                txtIdNota.Text = "";
+                txtCodigoRomaneioNota.Text = "";
+                txtRecebedorNota.Text = "";
+                txtFornecedorNota.Text = "";
+                txtNomeNota.Text = "";
+                txtCarroNota.Text = "";
+                txtPlacaNota.Text = "";
+            }
+
+
+                
         }
 
 
@@ -136,42 +224,42 @@ namespace H_GOLD_Transportes_Ltda
 
         private void lblRegistrosNC_MouseEnter(object sender, EventArgs e)
         {
-            lblRegistrosNC.Font = new Font(lblRegistrosNC.Font, FontStyle.Bold | FontStyle.Underline);
+            lblRegistrosNC.Font = new System.Drawing.Font(lblRegistrosNC.Font, FontStyle.Bold | FontStyle.Underline);
         }
 
         private void lblRegistrosNC_MouseLeave(object sender, EventArgs e)
         {
-            lblRegistrosNC.Font = new Font(lblRegistrosNC.Font, FontStyle.Bold | FontStyle.Regular);
+            lblRegistrosNC.Font = new System.Drawing.Font(lblRegistrosNC.Font, FontStyle.Bold | FontStyle.Regular);
         }
 
         private void lblClientes_MouseEnter(object sender, EventArgs e)
         {
-            lblClientes.Font = new Font(lblClientes.Font, FontStyle.Bold | FontStyle.Underline);
+            lblClientes.Font = new System.Drawing.Font(lblClientes.Font, FontStyle.Bold | FontStyle.Underline);
         }
 
         private void lblClientes_MouseLeave(object sender, EventArgs e)
         {
-            lblClientes.Font = new Font(lblClientes.Font, FontStyle.Bold | FontStyle.Regular);
+            lblClientes.Font = new System.Drawing.Font(lblClientes.Font, FontStyle.Bold | FontStyle.Regular);
         }
 
         private void lblFuncionarios_MouseEnter(object sender, EventArgs e)
         {
-            lblFuncionarios.Font = new Font(lblFuncionarios.Font, FontStyle.Bold | FontStyle.Underline);
+            lblFuncionarios.Font = new System.Drawing.Font(lblFuncionarios.Font, FontStyle.Bold | FontStyle.Underline);
         }
 
         private void lblFuncionarios_MouseLeave(object sender, EventArgs e)
         {
-            lblFuncionarios.Font = new Font(lblFuncionarios.Font, FontStyle.Bold | FontStyle.Regular);
+            lblFuncionarios.Font = new System.Drawing.Font(lblFuncionarios.Font, FontStyle.Bold | FontStyle.Regular);
         }
 
         private void lblCargas_MouseEnter(object sender, EventArgs e)
         {
-            lblCargas.Font = new Font(lblCargas.Font, FontStyle.Bold | FontStyle.Underline);
+            lblCargas.Font = new System.Drawing.Font(lblCargas.Font, FontStyle.Bold | FontStyle.Underline);
         }
 
         private void lblCargas_MouseLeave(object sender, EventArgs e)
         {
-            lblCargas.Font = new Font(lblCargas.Font, FontStyle.Bold | FontStyle.Regular);
+            lblCargas.Font = new System.Drawing.Font(lblCargas.Font, FontStyle.Bold | FontStyle.Regular);
         }
     }
 }

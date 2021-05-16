@@ -31,6 +31,13 @@ namespace H_GOLD_Transportes_Ltda
             cliente.Tel = txtTelefoneCliente.Text;
             cliente.Cnpj = txtCnpjCliente.Text;
             cliente.Salvar();
+
+            MessageBox.Show("Cliente cadastrado com sucesso !", "H GOLD Log Transportes");
+            txtNomeCliente.Text = "";
+            txtEnderecoCliente.Text = "";
+            txtCepCliente.Text = "";
+            txtTelefoneCliente.Text = "";
+            txtCnpjCliente.Text = "";
         }
 
         private void btnPesquisarCliente_Click(object sender, EventArgs e)

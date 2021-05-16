@@ -63,6 +63,7 @@ namespace H_GOLD_Transportes_Ltda
             // 
             // btnPesquisarCliente
             // 
+            this.btnPesquisarCliente.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnPesquisarCliente.Font = new System.Drawing.Font("Bookman Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPesquisarCliente.Location = new System.Drawing.Point(413, 380);
             this.btnPesquisarCliente.Name = "btnPesquisarCliente";
@@ -74,6 +75,7 @@ namespace H_GOLD_Transportes_Ltda
             // 
             // btnSalvarCliente
             // 
+            this.btnSalvarCliente.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSalvarCliente.Font = new System.Drawing.Font("Bookman Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalvarCliente.Location = new System.Drawing.Point(232, 380);
             this.btnSalvarCliente.Name = "btnSalvarCliente";
@@ -103,6 +105,7 @@ namespace H_GOLD_Transportes_Ltda
             // 
             // btnExcluirCliente
             // 
+            this.btnExcluirCliente.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnExcluirCliente.Font = new System.Drawing.Font("Bookman Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExcluirCliente.Location = new System.Drawing.Point(608, 380);
             this.btnExcluirCliente.Name = "btnExcluirCliente";

@@ -298,6 +298,7 @@ namespace H_GOLD_Transportes_Ltda
             // 
             // btnSalvarNota
             // 
+            this.btnSalvarNota.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSalvarNota.Font = new System.Drawing.Font("Bookman Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalvarNota.Location = new System.Drawing.Point(232, 385);
             this.btnSalvarNota.Name = "btnSalvarNota";
@@ -334,6 +335,7 @@ namespace H_GOLD_Transportes_Ltda
             // 
             // btnPesquisarNota
             // 
+            this.btnPesquisarNota.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnPesquisarNota.Font = new System.Drawing.Font("Bookman Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPesquisarNota.Location = new System.Drawing.Point(412, 385);
             this.btnPesquisarNota.Name = "btnPesquisarNota";
@@ -345,6 +347,7 @@ namespace H_GOLD_Transportes_Ltda
             // 
             // btnExcluirNota
             // 
+            this.btnExcluirNota.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnExcluirNota.Font = new System.Drawing.Font("Bookman Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExcluirNota.Location = new System.Drawing.Point(608, 385);
             this.btnExcluirNota.Name = "btnExcluirNota";

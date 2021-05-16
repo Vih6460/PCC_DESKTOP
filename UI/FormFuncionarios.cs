@@ -32,6 +32,14 @@ namespace H_GOLD_Transportes_Ltda
             funcionario.Cpf = txtCpfFuncionario.Text;
             funcionario.Whatsapp = txtWhatsappFuncionario.Text;
             funcionario.Salvar();
+
+            MessageBox.Show("Funcionário cadastrado com sucesso !", "H GOLD Log Transportes");
+            txtNomeMotoristaFuncionario.Text = "";
+            txtCarroFuncionario.Text = "";
+            txtPlacaFuncionario.Text = "";
+            txtCnhFuncionario.Text = "";
+            txtCpfFuncionario.Text = "";
+            txtWhatsappFuncionario.Text = "";
         }
 
         private void btnPesquisarFuncionario_Click(object sender, EventArgs e)

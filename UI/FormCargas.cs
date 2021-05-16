@@ -29,6 +29,11 @@ namespace H_GOLD_Transportes_Ltda
             carga.Descricao = txtDescricaoCarga.Text;
             carga.Peso = txtPesoCarga.Text;
             carga.Salvar();
+
+            MessageBox.Show("Carga cadastrada com sucesso !", "H GOLD Log Transportes");
+            txtCodigoRomaneioCarga.Text = "";
+            txtDescricaoCarga.Text = "";
+            txtPesoCarga.Text = "";
         }
 
         private void btnPesquisarCarga_Click(object sender, EventArgs e)

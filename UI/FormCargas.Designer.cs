@@ -59,6 +59,7 @@ namespace H_GOLD_Transportes_Ltda
             // 
             // btnPesquisarCarga
             // 
+            this.btnPesquisarCarga.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnPesquisarCarga.Font = new System.Drawing.Font("Bookman Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPesquisarCarga.Location = new System.Drawing.Point(413, 369);
             this.btnPesquisarCarga.Name = "btnPesquisarCarga";
@@ -70,6 +71,7 @@ namespace H_GOLD_Transportes_Ltda
             // 
             // btnSalvarCarga
             // 
+            this.btnSalvarCarga.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSalvarCarga.Font = new System.Drawing.Font("Bookman Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalvarCarga.Location = new System.Drawing.Point(232, 369);
             this.btnSalvarCarga.Name = "btnSalvarCarga";
@@ -99,6 +101,7 @@ namespace H_GOLD_Transportes_Ltda
             // 
             // btnExcluirCarga
             // 
+            this.btnExcluirCarga.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnExcluirCarga.Font = new System.Drawing.Font("Bookman Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExcluirCarga.Location = new System.Drawing.Point(608, 369);
             this.btnExcluirCarga.Name = "btnExcluirCarga";

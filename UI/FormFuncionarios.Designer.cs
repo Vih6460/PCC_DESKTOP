@@ -65,6 +65,7 @@ namespace H_GOLD_Transportes_Ltda
             // 
             // btnExcluirFuncionario
             // 
+            this.btnExcluirFuncionario.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnExcluirFuncionario.Font = new System.Drawing.Font("Bookman Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExcluirFuncionario.Location = new System.Drawing.Point(608, 397);
             this.btnExcluirFuncionario.Name = "btnExcluirFuncionario";
@@ -76,6 +77,7 @@ namespace H_GOLD_Transportes_Ltda
             // 
             // btnPesquisarFuncionario
             // 
+            this.btnPesquisarFuncionario.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnPesquisarFuncionario.Font = new System.Drawing.Font("Bookman Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPesquisarFuncionario.Location = new System.Drawing.Point(413, 397);
             this.btnPesquisarFuncionario.Name = "btnPesquisarFuncionario";
@@ -112,6 +114,7 @@ namespace H_GOLD_Transportes_Ltda
             // 
             // btnSalvarFuncionario
             // 
+            this.btnSalvarFuncionario.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSalvarFuncionario.Font = new System.Drawing.Font("Bookman Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalvarFuncionario.Location = new System.Drawing.Point(232, 397);
             this.btnSalvarFuncionario.Name = "btnSalvarFuncionario";
