@@ -50,7 +50,7 @@ namespace H_GOLD_Transportes_Ltda
 
             doc.Open();
 
-            string simg = "https://raw.githubusercontent.com/Vih6460/PCC-Unifaat/master/PCC/src/img/logohgold.jpg";
+            string simg = "https://raw.githubusercontent.com/Vih6460/PCC-Unifaat/master/PCC/src/img/logohgold.png";
             iTextSharp.text.Image img = iTextSharp.text.Image.GetInstance(simg);
             img.ScaleAbsolute(256, 192);
             img.Alignment = Element.ALIGN_CENTER;

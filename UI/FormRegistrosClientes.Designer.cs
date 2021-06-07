@@ -31,12 +31,6 @@ namespace H_GOLD_Transportes_Ltda
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormRegistrosClientes));
             this.dgvDadosCliente = new System.Windows.Forms.DataGridView();
-            this.Id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NomeCliente = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Endereco = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Cep = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Tel = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Cnpj = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label8 = new System.Windows.Forms.Label();
             this.lblRegistrosClientes = new System.Windows.Forms.Label();
@@ -49,6 +43,12 @@ namespace H_GOLD_Transportes_Ltda
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.Id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NomeCliente = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Endereco = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Cep = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Tel = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Cnpj = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDadosCliente)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -71,42 +71,6 @@ namespace H_GOLD_Transportes_Ltda
             this.dgvDadosCliente.Name = "dgvDadosCliente";
             this.dgvDadosCliente.Size = new System.Drawing.Size(526, 314);
             this.dgvDadosCliente.TabIndex = 114;
-            // 
-            // Id
-            // 
-            this.Id.DataPropertyName = "Id";
-            this.Id.HeaderText = "Id";
-            this.Id.Name = "Id";
-            // 
-            // NomeCliente
-            // 
-            this.NomeCliente.DataPropertyName = "NomeCliente";
-            this.NomeCliente.HeaderText = "NomeCliente";
-            this.NomeCliente.Name = "NomeCliente";
-            // 
-            // Endereco
-            // 
-            this.Endereco.DataPropertyName = "Endereco";
-            this.Endereco.HeaderText = "Endereço";
-            this.Endereco.Name = "Endereco";
-            // 
-            // Cep
-            // 
-            this.Cep.DataPropertyName = "Cep";
-            this.Cep.HeaderText = "CEP";
-            this.Cep.Name = "Cep";
-            // 
-            // Tel
-            // 
-            this.Tel.DataPropertyName = "Tel";
-            this.Tel.HeaderText = "Tel";
-            this.Tel.Name = "Tel";
-            // 
-            // Cnpj
-            // 
-            this.Cnpj.DataPropertyName = "Cnpj";
-            this.Cnpj.HeaderText = "CNPJ";
-            this.Cnpj.Name = "Cnpj";
             // 
             // pictureBox4
             // 
@@ -270,6 +234,43 @@ namespace H_GOLD_Transportes_Ltda
             this.pictureBox1.TabIndex = 92;
             this.pictureBox1.TabStop = false;
             // 
+            // Id
+            // 
+            this.Id.DataPropertyName = "Id";
+            this.Id.HeaderText = "Id";
+            this.Id.Name = "Id";
+            // 
+            // NomeCliente
+            // 
+            this.NomeCliente.DataPropertyName = "NomeCliente";
+            this.NomeCliente.HeaderText = "NomeCliente";
+            this.NomeCliente.Name = "NomeCliente";
+            // 
+            // Endereco
+            // 
+            this.Endereco.DataPropertyName = "Endereco";
+            this.Endereco.HeaderText = "Endereço";
+            this.Endereco.Name = "Endereco";
+            // 
+            // Cep
+            // 
+            this.Cep.DataPropertyName = "Cep";
+            this.Cep.HeaderText = "CEP";
+            this.Cep.Name = "Cep";
+            // 
+            // Tel
+            // 
+            this.Tel.DataPropertyName = "Tel";
+            this.Tel.HeaderText = "Tel";
+            this.Tel.Name = "Tel";
+            // 
+            // Cnpj
+            // 
+            this.Cnpj.DataPropertyName = "Cnpj";
+            this.Cnpj.HeaderText = "CNPJ";
+            this.Cnpj.Name = "Cnpj";
+            this.Cnpj.Width = 150;
+            // 
             // FormRegistrosClientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -307,12 +308,6 @@ namespace H_GOLD_Transportes_Ltda
         #endregion
 
         private System.Windows.Forms.DataGridView dgvDadosCliente;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Id;
-        private System.Windows.Forms.DataGridViewTextBoxColumn NomeCliente;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Endereco;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Cep;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Tel;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Cnpj;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label lblRegistrosClientes;
@@ -325,5 +320,11 @@ namespace H_GOLD_Transportes_Ltda
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Id;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NomeCliente;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Endereco;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Cep;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Tel;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Cnpj;
     }
 }
